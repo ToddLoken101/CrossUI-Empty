@@ -50,37 +50,72 @@ xui.Class('App', 'xui.Module',{
                         "caption" : "Application"
                     },
                     {
-                        "id" : "filemenu",
-                        "sub" : [
+                        "id": "filemenu",
+                        "caption": "File",
+                        "sub": [
                             {
-                                "id" : "sub menu 1",
-                                "caption" : "sub menu 1",
-                                "add" : "[Ctrl+F]",
-                                "sub" : [
-                                    {
-                                        "id" : "sub 1",
-                                        "type" : "radiobox"
-                                    },
-                                    {
-                                        "id" : "sub 2",
-                                        "type" : "radiobox"
-                                    },
-                                    {
-                                        "id" : "sub 3"
-                                    }
-                                ]
+                                "id": "new",
+                                "caption": "New",
+                                "add": "[Ctrl+N]"
                             },
                             {
-                                "id" : "sub menu 2",
-                                "caption" : "sub menu 2",
-                                "add" : "[Ctrl+T]",
-                                "sub" : [
-                                    "sub 3",
-                                    "sub 4"
-                                ]
+                                "id": "open",
+                                "caption": "Open...",
+                                "add": "[Ctrl+O]"
+                            },
+                            {
+                                "id": "openrecent",
+                                "caption": "Open Recent",
+                                "sub": []
+                            },
+                            {
+                                "id": "separator1",
+                                "type": "separator"
+                            },
+                            {
+                                "id": "close",
+                                "caption": "Close",
+                                "add": "[Ctrl+W]"
+                            },
+                            {
+                                "id": "save",
+                                "caption": "Save",
+                                "add": "[Ctrl+S]"
+                            },
+                            {
+                                "id": "saveas",
+                                "caption": "Save As...",
+                                "add": "[Ctrl+Alt+S]"
+                            },
+                            {
+                                "id": "revert",
+                                "caption": "Revert"
+                            },
+                            {
+                                "id": "separator2",
+                                "type": "separator"
+                            },
+                            {
+                                "id": "addtoproject",
+                                "caption": "Add To Project..."
+                            },
+                            {
+                                "id": "updateproject",
+                                "caption": "Update Project"
+                            },
+                            {
+                                "id": "exportfile",
+                                "caption": "Export File"
+                            },
+                            {
+                                "id": "separator3",
+                                "type": "separator"
+                            },
+                            {
+                                "id": "pagesetup",
+                                "caption": "Page Setup"
                             }
-                        ],
-                        "caption" : "File"
+                        ]
                     },
                      {
                         "id" : "editmenu",
