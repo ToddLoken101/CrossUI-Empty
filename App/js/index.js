@@ -25,7 +25,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_menubar2")
                 .setItems([
                     {
-                        "id" : "application-menu",
+                        "id" : "applicationmenu",
                         "sub" : [
                             {
                                 "id" : "normal",
@@ -58,7 +58,7 @@ xui.Class('App', 'xui.Module',{
                         "caption" : "Application"
                     },
                     {
-                        "id" : "file-menu",
+                        "id" : "filemenu",
                         "sub" : [
                             {
                                 "id" : "sub menu 1",
@@ -89,6 +89,39 @@ xui.Class('App', 'xui.Module',{
                             }
                         ],
                         "caption" : "File"
+                    },
+                     {
+                        "id" : "editmenu",
+                        "sub" : [
+                            {
+                                "id" : "sub menu 1",
+                                "caption" : "sub menu 1",
+                                "add" : "[Ctrl+F]",
+                                "sub" : [
+                                    {
+                                        "id" : "sub 1",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 2",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 3"
+                                    }
+                                ]
+                            },
+                            {
+                                "id" : "sub menu 2",
+                                "caption" : "sub menu 2",
+                                "add" : "[Ctrl+T]",
+                                "sub" : [
+                                    "sub 3",
+                                    "sub 4"
+                                ]
+                            }
+                        ],
+                        "caption" : "Edit"
                     }
                 ])
                 .setTop("2.2857142857142856em")
