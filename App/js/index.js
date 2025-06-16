@@ -122,7 +122,206 @@ xui.Class('App', 'xui.Module',{
                             }
                         ],
                         "caption" : "Edit"
-                    }
+                    },
+                     {
+                        "id" : "operationsmenu",
+                        "sub" : [
+                            {
+                                "id" : "sub menu 1",
+                                "caption" : "sub menu 1",
+                                "add" : "[Ctrl+F]",
+                                "sub" : [
+                                    {
+                                        "id" : "sub 1",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 2",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 3"
+                                    }
+                                ]
+                            },
+                            {
+                                "id" : "sub menu 2",
+                                "caption" : "sub menu 2",
+                                "add" : "[Ctrl+T]",
+                                "sub" : [
+                                    "sub 3",
+                                    "sub 4"
+                                ]
+                            }
+                        ],
+                        "caption" : "Operations"
+                    },
+                    {
+                        "id" : "controlsmenu",
+                        "sub" : [
+                            {
+                                "id" : "sub menu 1",
+                                "caption" : "sub menu 1",
+                                "add" : "[Ctrl+F]",
+                                "sub" : [
+                                    {
+                                        "id" : "sub 1",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 2",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 3"
+                                    }
+                                ]
+                            },
+                            {
+                                "id" : "sub menu 2",
+                                "caption" : "sub menu 2",
+                                "add" : "[Ctrl+T]",
+                                "sub" : [
+                                    "sub 3",
+                                    "sub 4"
+                                ]
+                            }
+                        ],
+                        "caption" : "Controls"
+                    },
+                    {
+                        "id" : "windowmenu",
+                        "sub" : [
+                            {
+                                "id" : "sub menu 1",
+                                "caption" : "sub menu 1",
+                                "add" : "[Ctrl+F]",
+                                "sub" : [
+                                    {
+                                        "id" : "sub 1",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 2",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 3"
+                                    }
+                                ]
+                            },
+                            {
+                                "id" : "sub menu 2",
+                                "caption" : "sub menu 2",
+                                "add" : "[Ctrl+T]",
+                                "sub" : [
+                                    "sub 3",
+                                    "sub 4"
+                                ]
+                            }
+                        ],
+                        "caption" : "Window"
+                    },
+                    {
+                        "id" : "runmenu",
+                        "sub" : [
+                            {
+                                "id" : "sub menu 1",
+                                "caption" : "sub menu 1",
+                                "add" : "[Ctrl+F]",
+                                "sub" : [
+                                    {
+                                        "id" : "sub 1",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 2",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 3"
+                                    }
+                                ]
+                            },
+                            {
+                                "id" : "sub menu 2",
+                                "caption" : "sub menu 2",
+                                "add" : "[Ctrl+T]",
+                                "sub" : [
+                                    "sub 3",
+                                    "sub 4"
+                                ]
+                            }
+                        ],
+                        "caption" : "Run"
+                    },
+                    {
+                        "id" : "toolsmenu",
+                        "sub" : [
+                            {
+                                "id" : "sub menu 1",
+                                "caption" : "sub menu 1",
+                                "add" : "[Ctrl+F]",
+                                "sub" : [
+                                    {
+                                        "id" : "sub 1",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 2",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 3"
+                                    }
+                                ]
+                            },
+                            {
+                                "id" : "sub menu 2",
+                                "caption" : "sub menu 2",
+                                "add" : "[Ctrl+T]",
+                                "sub" : [
+                                    "sub 3",
+                                    "sub 4"
+                                ]
+                            }
+                        ],
+                        "caption" : "Tools"
+                    },
+                    {
+                        "id" : "helpmenu",
+                        "sub" : [
+                            {
+                                "id" : "sub menu 1",
+                                "caption" : "sub menu 1",
+                                "add" : "[Ctrl+F]",
+                                "sub" : [
+                                    {
+                                        "id" : "sub 1",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 2",
+                                        "type" : "radiobox"
+                                    },
+                                    {
+                                        "id" : "sub 3"
+                                    }
+                                ]
+                            },
+                            {
+                                "id" : "sub menu 2",
+                                "caption" : "sub menu 2",
+                                "add" : "[Ctrl+T]",
+                                "sub" : [
+                                    "sub 3",
+                                    "sub 4"
+                                ]
+                            }
+                        ],
+                        "caption" : "Help"
+                    }                     
+                // bottom    
                 ])
                 .setTop("2.2857142857142856em")
             );
