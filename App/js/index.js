@@ -309,38 +309,90 @@ xui.Class('App', 'xui.Module',{
                                 ]
                             },
                         {
-                        "id" : "controlsmenu",
-                        "sub" : [
-                            {
-                                "id" : "sub menu 1",
-                                "caption" : "sub menu 1",
-                                "add" : "[Ctrl+F]",
-                                "sub" : [
+                                "id": "controlsmenu",
+                                "caption": "Controls",
+                                "sub": [
                                     {
-                                        "id" : "sub 1",
-                                        "type" : "radiobox"
+                                        "id": "simple",
+                                        "caption": "Simple",
+                                        "add": "[Ctrl+Shift+A]"
                                     },
                                     {
-                                        "id" : "sub 2",
-                                        "type" : "radiobox"
+                                        "id": "super",
+                                        "caption": "Super",
+                                        "add": "[Ctrl+Shift+O]"
                                     },
                                     {
-                                        "id" : "sub 3"
+                                        "id": "repeat",
+                                        "caption": "Repeat",
+                                        "add": "[Ctrl+Shift+R]"
+                                    },
+                                    {
+                                        "id": "separator1",
+                                        "type": "separator"
+                                    },
+                                    {
+                                        "id": "insertnode",
+                                        "caption": "Insert Node",
+                                        "add": "[Ctrl+W]"
+                                    },
+                                    {
+                                        "id": "inject",
+                                        "caption": "Inject"
+                                    },
+                                    {
+                                        "id": "list",
+                                        "caption": "List",
+                                        "add": "[Ctrl+Shift+S]"
+                                    },
+                                    {
+                                        "id": "loop",
+                                        "caption": "Loop"
+                                    },
+                                    {
+                                        "id": "separator2",
+                                        "type": "separator"
+                                    },
+                                    {
+                                        "id": "reverse",
+                                        "caption": "Reverse",
+                                        "add": "[Ctrl+Shift+-]"
+                                    },
+                                    {
+                                        "id": "separator3",
+                                        "type": "separator"
+                                    },
+                                    {
+                                        "id": "nextcase",
+                                        "caption": "Next Case",
+                                        "add": "[Ctrl+Shift+N]"
+                                    },
+                                    {
+                                        "id": "continue",
+                                        "caption": "Continue",
+                                        "add": "[Ctrl+Shift+U]"
+                                    },
+                                    {
+                                        "id": "terminate",
+                                        "caption": "Terminate",
+                                        "add": "[Ctrl+Shift+T]"
+                                    },
+                                    {
+                                        "id": "finish",
+                                        "caption": "Finish",
+                                        "add": "[Ctrl+Shift+F]"
+                                    },
+                                    {
+                                        "id": "skip",
+                                        "caption": "Skip"
+                                    },
+                                    {
+                                        "id": "fail",
+                                        "caption": "Fail",
+                                        "add": "[Ctrl+Shift+X]"
                                     }
                                 ]
                             },
-                            {
-                                "id" : "sub menu 2",
-                                "caption" : "sub menu 2",
-                                "add" : "[Ctrl+T]",
-                                "sub" : [
-                                    "sub 3",
-                                    "sub 4"
-                                ]
-                            }
-                        ],
-                        "caption" : "Controls"
-                    },
                     {
                         "id" : "windowmenu",
                         "sub" : [
