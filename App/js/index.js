@@ -192,39 +192,122 @@ xui.Class('App', 'xui.Module',{
                                 }    
                             ]
                         },
-                     {
-                        "id" : "operationsmenu",
-                        "sub" : [
-                            {
-                                "id" : "sub menu 1",
-                                "caption" : "sub menu 1",
-                                "add" : "[Ctrl+F]",
-                                "sub" : [
+                    {
+                                "id": "operationsmenu",
+                                "caption": "Operations",
+                                "sub": [
                                     {
-                                        "id" : "sub 1",
-                                        "type" : "radiobox"
+                                        "id": "method",
+                                        "caption": "Method",
+                                        "add": "[Ctrl+Shift+W]"
                                     },
                                     {
-                                        "id" : "sub 2",
-                                        "type" : "radiobox"
+                                        "id": "primitive",
+                                        "caption": "Primitive"
                                     },
                                     {
-                                        "id" : "sub 3"
+                                        "id": "separator1",
+                                        "type": "separator"
+                                    },
+                                    {
+                                        "id": "constant",
+                                        "caption": "Constant",
+                                        "add": "[Ctrl+Shift+C]"
+                                    },
+                                    {
+                                        "id": "match",
+                                        "caption": "Match",
+                                        "add": "[Ctrl+Shift+M]"
+                                    },
+                                    {
+                                        "id": "persistent",
+                                        "caption": "Persistent",
+                                        "add": "[Ctrl+Shift+P]"
+                                    },
+                                    {
+                                        "id": "instance",
+                                        "caption": "Instance",
+                                        "add": "[Ctrl+Shift+I]"
+                                    },
+                                    {
+                                        "id": "get",
+                                        "caption": "Get",
+                                        "add": "[Ctrl+Shift+G]"
+                                    },
+                                    {
+                                        "id": "set",
+                                        "caption": "Set",
+                                        "add": "[Ctrl+Shift+S]"
+                                    },
+                                    {
+                                        "id": "separator2",
+                                        "type": "separator"
+                                    },
+                                    {
+                                        "id": "extconstant",
+                                        "caption": "ExtConstant",
+                                        "add": "[Ctrl+Shift+Alt+C]"
+                                    },
+                                    {
+                                        "id": "extmatch",
+                                        "caption": "ExtMatch",
+                                        "add": "[Ctrl+Shift+Alt+M]"
+                                    },
+                                    {
+                                        "id": "extget",
+                                        "caption": "ExtGet",
+                                        "add": "[Ctrl+Shift+Alt+G]"
+                                    },
+                                    {
+                                        "id": "extset",
+                                        "caption": "ExtSet",
+                                        "add": "[Ctrl+Shift+Alt+S]"
+                                    },
+                                    {
+                                        "id": "extprocedure",
+                                        "caption": "ExtProcedure"
+                                    },
+                                    {
+                                        "id": "separator3",
+                                        "type": "separator"
+                                    },
+                                    {
+                                        "id": "local",
+                                        "caption": "Local",
+                                        "add": "[Ctrl+Shift+L]"
+                                    },
+                                    {
+                                        "id": "evaluate",
+                                        "caption": "Evaluate",
+                                        "add": "[Ctrl+Shift+E]"
+                                    },
+                                    {
+                                        "id": "separator4",
+                                        "type": "separator"
+                                    },
+                                    {
+                                        "id": "operationstolocal",
+                                        "caption": "Operations To Local"
+                                    },
+                                    {
+                                        "id": "localtomethod",
+                                        "caption": "Local To Method..."
+                                    },
+                                    {
+                                        "id": "separator5",
+                                        "type": "separator"
+                                    },
+                                    {
+                                        "id": "tidyoperations",
+                                        "caption": "Tidy Operations",
+                                        "add": "[Ctrl+T]"
+                                    },
+                                    {
+                                        "id": "resize",
+                                        "caption": "Resize"
                                     }
                                 ]
                             },
-                            {
-                                "id" : "sub menu 2",
-                                "caption" : "sub menu 2",
-                                "add" : "[Ctrl+T]",
-                                "sub" : [
-                                    "sub 3",
-                                    "sub 4"
-                                ]
-                            }
-                        ],
-                        "caption" : "Operations"
-                    },
                     {
                         "id" : "controlsmenu",
                         "sub" : [
