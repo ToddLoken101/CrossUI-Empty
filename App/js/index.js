@@ -397,97 +397,104 @@ xui.Class('App', 'xui.Module',{
                         "id" : "windowmenu",
                         "sub" : [
                             {
-                                "id" : "sub menu 1",
-                                "caption" : "sub menu 1",
-                                "add" : "[Ctrl+F]",
-                                "sub" : [
-                                    {
-                                        "id" : "sub 1",
-                                        "type" : "radiobox"
-                                    },
-                                    {
-                                        "id" : "sub 2",
-                                        "type" : "radiobox"
-                                    },
-                                    {
-                                        "id" : "sub 3"
-                                    }
-                                ]
-                            },
-                            {
-                                "id" : "sub menu 2",
-                                "caption" : "sub menu 2",
-                                "add" : "[Ctrl+T]",
-                                "sub" : [
-                                    "sub 3",
-                                    "sub 4"
-                                ]
+                                "id" : "projects",
+                                "caption" : "Projects",
+                                "add" : "[Ctrl+J]"
                             }
                         ],
                         "caption" : "Window"
                     },
-                    {
-                        "id" : "runmenu",
-                        "sub" : [
-                            {
-                                "id" : "sub menu 1",
-                                "caption" : "sub menu 1",
-                                "add" : "[Ctrl+F]",
-                                "sub" : [
-                                    {
-                                        "id" : "sub 1",
-                                        "type" : "radiobox"
-                                    },
-                                    {
-                                        "id" : "sub 2",
-                                        "type" : "radiobox"
-                                    },
-                                    {
-                                        "id" : "sub 3"
-                                    }
-                                ]
-                            },
-                            {
-                                "id" : "sub menu 2",
-                                "caption" : "sub menu 2",
-                                "add" : "[Ctrl+T]",
-                                "sub" : [
-                                    "sub 3",
-                                    "sub 4"
-                                ]
-                            }
-                        ],
-                        "caption" : "Run"
-                    },
+                   {
+                    "id": "runmenu",
+                    "caption": "Run",
+                    "sub": [
+                        {
+                            "id": "runapplication",
+                            "caption": "Run Application",
+                            "add": "[Ctrl+R]"
+                        },
+                        {
+                            "id": "runmethod",
+                            "caption": "Run Method",
+                            "add": "[Ctrl+D]"
+                        },
+                        {
+                            "id": "debugmethod",
+                            "caption": "Debug Method",
+                            "add": "[Ctrl+Shift+D]"
+                        },
+                        {
+                            "id": "separator1",
+                            "type": "separator"
+                        },
+                        {
+                            "id": "breakpoint",
+                            "caption": "Breakpoint",
+                            "add": "[Ctrl+[]"
+                        },
+                        {
+                            "id": "showallbreakpoints",
+                            "caption": "Show All Breakpoints",
+                            "add": "[Ctrl+S]"
+                        },
+                        {
+                            "id": "clearallbreakpoints",
+                            "caption": "Clear All Breakpoints",
+                            "add": "[Ctrl+Shift+S]"
+                        },
+                        {
+                            "id": "separator2",
+                            "type": "separator"
+                        },
+                        {
+                            "id": "step",
+                            "caption": "Step",
+                            "add": "[Enter]"
+                        },
+                        {
+                            "id": "stepover",
+                            "caption": "Step Over",
+                            "add": "[Tab]"
+                        },
+                        {
+                            "id": "stepin",
+                            "caption": "Step In",
+                            "add": "[Ctrl+Down]"
+                        },
+                        {
+                            "id": "stepout",
+                            "caption": "Step Out",
+                            "add": "[Ctrl+Up]"
+                        },
+                        {
+                            "id": "separator3",
+                            "type": "separator"
+                        },
+                        {
+                            "id": "resume",
+                            "caption": "Resume",
+                            "add": "[Ctrl+Enter]"
+                        },
+                        {
+                            "id": "stop",
+                            "caption": "Stop"
+                        },
+                        {
+                            "id": "stopall",
+                            "caption": "Stop All"
+                        }
+                    ]
+                },
                     {
                         "id" : "toolsmenu",
                         "sub" : [
                             {
-                                "id" : "sub menu 1",
-                                "caption" : "sub menu 1",
-                                "add" : "[Ctrl+F]",
-                                "sub" : [
-                                    {
-                                        "id" : "sub 1",
-                                        "type" : "radiobox"
-                                    },
-                                    {
-                                        "id" : "sub 2",
-                                        "type" : "radiobox"
-                                    },
-                                    {
-                                        "id" : "sub 3"
-                                    }
-                                ]
+                                "id" : "notoolsinstalled",
+                                "caption" : "No Tools Installed"
                             },
                             {
-                                "id" : "sub menu 2",
-                                "caption" : "sub menu 2",
-                                "add" : "[Ctrl+T]",
-                                "sub" : [
-                                    "sub 3",
-                                    "sub 4"
-                                ]
+                                "id" : "createthread",
+                                "caption" : "Create Thread"                               
                             }
                         ],
                         "caption" : "Tools"
@@ -496,26 +503,12 @@ xui.Class('App', 'xui.Module',{
                         "id" : "helpmenu",
                         "sub" : [
                             {
-                                "id" : "sub menu 1",
-                                "caption" : "sub menu 1",
-                                "add" : "[Ctrl+F]",
-                                "sub" : [
-                                    {
-                                        "id" : "sub 1",
-                                        "type" : "radiobox"
-                                    },
-                                    {
-                                        "id" : "sub 2",
-                                        "type" : "radiobox"
-                                    },
-                                    {
-                                        "id" : "sub 3"
-                                    }
-                                ]
+                                "id" : "documentations",
+                                "caption" : "Online Documentation"
                             },
                             {
                                 "id" : "sub menu 2",
-                                "caption" : "sub menu 2",
+                                "caption" : "Submenu 2 Placeholder in Code For Nested Submenus",
                                 "add" : "[Ctrl+T]",
                                 "sub" : [
                                     "sub 3",
