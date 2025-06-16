@@ -308,7 +308,7 @@ xui.Class('App', 'xui.Module',{
                                     }
                                 ]
                             },
-                    {
+                        {
                         "id" : "controlsmenu",
                         "sub" : [
                             {
