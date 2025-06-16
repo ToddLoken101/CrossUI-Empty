@@ -117,39 +117,81 @@ xui.Class('App', 'xui.Module',{
                             }
                         ]
                     },
-                     {
-                        "id" : "editmenu",
-                        "sub" : [
-                            {
-                                "id" : "sub menu 1",
-                                "caption" : "sub menu 1",
-                                "add" : "[Ctrl+F]",
-                                "sub" : [
-                                    {
-                                        "id" : "sub 1",
-                                        "type" : "radiobox"
-                                    },
-                                    {
-                                        "id" : "sub 2",
-                                        "type" : "radiobox"
-                                    },
-                                    {
-                                        "id" : "sub 3"
-                                    }
-                                ]
-                            },
-                            {
-                                "id" : "sub menu 2",
-                                "caption" : "sub menu 2",
-                                "add" : "[Ctrl+T]",
-                                "sub" : [
-                                    "sub 3",
-                                    "sub 4"
-                                ]
-                            }
-                        ],
-                        "caption" : "Edit"
-                    },
+                    {
+                            "id": "editmenu",
+                            "caption": "Edit",
+                            "sub": [
+                                {
+                                    "id": "undo",
+                                    "caption": "Undo",
+                                    "add": "[Ctrl+Z]"
+                                },
+                                {
+                                    "id": "redo",
+                                    "caption": "Redo",
+                                    "add": "[Ctrl+Shift+Z]"
+                                },
+                                {
+                                    "id": "separator1",
+                                    "type": "separator"
+                                },
+                                {
+                                    "id": "cut",
+                                    "caption": "Cut",
+                                    "add": "[Ctrl+X]"
+                                },
+                                {
+                                    "id": "copy",
+                                    "caption": "Copy",
+                                    "add": "[Ctrl+C]"
+                                },
+                                {
+                                    "id": "paste",
+                                    "caption": "Paste",
+                                    "add": "[Ctrl+V]"
+                                },
+                                {
+                                    "id": "delete",
+                                    "caption": "Delete"
+                                },
+                                {
+                                    "id": "separator2",
+                                    "type": "separator"
+                                },
+                                {
+                                    "id": "duplicate",
+                                    "caption": "Duplicate"
+                                },
+                                {
+                                    "id": "selectall",
+                                    "caption": "Select All"
+                                },
+                                {
+                                    "id": "separator3",
+                                    "type": "separator"
+                                },
+                                {
+                                    "id": "movetosection",
+                                    "caption": "Move To Section..."
+                                },
+                                {
+                                    "id": "propagateattribute",
+                                    "caption": "Propagate Attribute"
+                                },
+                                {
+                                    "id": "revealcontainer",
+                                    "caption": "Reveal Container"
+                                },
+                                {
+                                    "id": "separator4",
+                                    "type": "separator"
+                                },
+                                {
+                                    "id": "find",
+                                    "caption": "Find..."
+                                }    
+                            ]
+                        },
                      {
                         "id" : "operationsmenu",
                         "sub" : [
