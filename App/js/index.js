@@ -28,31 +28,23 @@ xui.Class('App', 'xui.Module',{
                         "id" : "applicationmenu",
                         "sub" : [
                             {
-                                "id" : "normal",
-                                "caption" : "normal"
+                                "id" : "aboutmarten",
+                                "caption" : "About Marten..."
+                            },
+                                                        {
+                                "type" : "split"
                             },
                             {
-                                "id" : "disabled",
-                                "caption" : "disabled",
-                                "disabled" : true
-                            },
-                            {
-                                "id" : "image",
-                                "caption" : "image",
-                                "imageClass" : "xui-icon-xui"
+                                "id" : "preferences",
+                                "caption" : "Preferences..."
+                                
                             },
                             {
                                 "type" : "split"
                             },
                             {
-                                "id" : "checkbox 1",
-                                "caption" : "checkbox 1",
-                                "type" : "checkbox"
-                            },
-                            {
-                                "id" : "checkbox 2",
-                                "caption" : "checkbox 2",
-                                "type" : "checkbox"
+                                "id" : "exit",
+                                "caption" : "Exit"                               
                             }
                         ],
                         "caption" : "Application"
